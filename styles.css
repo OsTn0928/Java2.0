@@ -1,0 +1,184 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #1e1e2f;
+    color: #f5f5f5;
+    line-height: 1.6;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-bottom: 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+header #resultado {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #f9ca24;
+    font-weight: bold;
+}
+
+/* Main Content */
+main {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main p {
+    font-size: 1.3rem;
+    color: #bdc3c7;
+    margin-bottom: 30px;
+}
+
+/* Input & Buttons */
+input[type="text"] {
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #4e54c8;
+    font-size: 1.2rem;
+    width: 300px;
+    outline: none;
+    color: #2c3e50;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #8f94fb;
+}
+
+button {
+    background-color: #4e54c8;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #8f94fb;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #232946;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+footer #datos-empresa {
+    margin: 20px auto;
+    text-align: center;
+    width: 80%;
+    color: #f5f5f5;
+}
+
+footer #datos-empresa h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+footer #datos-empresa p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer #datos-empresa a {
+    color: #f9ca24;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer #datos-empresa a:hover {
+    text-decoration: underline;
+}
+
+footer button {
+    background-color: #f9ca24;
+    color: #232946;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+
+footer button:hover {
+    background-color: #f4b400;
+    transform: translateY(-2px);
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+span {
+	font-size: 2.5rem;
+}
+
